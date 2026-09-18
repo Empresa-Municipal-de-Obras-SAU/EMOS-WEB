@@ -1,4 +1,3 @@
-import oficina from "../assets/oficina.jpg";
 import { Link } from "react-router-dom";
 
 export default function Inicio() {
@@ -43,7 +42,7 @@ export default function Inicio() {
 
         <div className="animate-in-up mt-20">
           <img
-            src={oficina}
+            src="oficina.jpg"
             alt="Instalaciones de EMOS"
             width={1536}
             height={768}

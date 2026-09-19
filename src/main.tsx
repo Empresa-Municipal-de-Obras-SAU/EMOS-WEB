@@ -4,6 +4,8 @@ import { HashRouter } from "react-router-dom";
 import "./styles.css";
 import App from "./App.tsx";
 
+console.log("ESTOY USANDO HASHROUTER");
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <HashRouter>
